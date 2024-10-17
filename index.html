@@ -1,1 +1,52 @@
 
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de imagens em cantos</title>
+    <style>
+        .image-container {
+            position: relative;
+            height: 100vh;
+        }
+        .img-top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 200px;
+        }
+        .img-bottom-right {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+        }
+        .img-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container image-container">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.m.wikipedia.org%2Fwiki%2FFicheiro%3APalmeiras_logo.svg&psig=AOvVaw0IKpAjVhS0HCXVGRcq_ogl&ust=1729285213558000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjq3cinlokDFQAAAAAdAAAAABAE" alt="imagem superior esquerda" class="img-top-left" />
+    <img src="img" alt="imagem central" class="img-center">
+    <img src="img" alt="imagem inferior direita" class="img-bottom-right">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
